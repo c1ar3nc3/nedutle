@@ -40,7 +40,7 @@ export const Keyboard = ({
       } else {
         const key = localeAwareUpperCase(e.key)
         // TODO: check this test if the range works with non-english letters
-        if (key.length === 1 && key >= 'A' && key <= 'Z') {
+        if (key.length === 1 && key >= 'A' && key <= 'Z' && key === '\'') {
           onChar(key)
         }
       }
@@ -79,7 +79,7 @@ export const Keyboard = ({
         <Key width={65.4} value="ENTER" onClick={onClick}>
           {ENTER_TEXT}
         </Key>
-        {['Z', 'X', 'C', 'V', 'B', 'N', 'M'].map((key) => (
+        {['Z', 'X', 'C', 'V', 'B', 'N', 'M', '\''].map((key) => (
           <Key
             value={key}
             key={key}
