@@ -38,5 +38,25 @@ export const VALID_GUESSES = [
 'whus',
 'yukh',
 'dibeeyh',
-'tzuz'
+'tzuz',
+'hadeeh',
+'seende',
+'seenyeen',
+'eelgeeyh', //stopped here (TPR)
+'sne\'',
+'sbeb',
+'st\'o',
+'st\'anee\'',
+'steets',
+'hozk\'its',
+'winilwis',
+'neelhtsiy',
+'hasadeendee',
+'nekat',
+'newilhtiyh',
+'sogh',
+'c\'inlu',
+'can',
+'yis',
+'deetneec'
 ]
